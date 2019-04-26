@@ -1,0 +1,56 @@
+@import "colors.scss";
+
+.tabs-vertical {
+    .tabs {
+        height: auto;
+        -ms-flex-direction: column;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        display: -webkit-flex;
+        display: flex;
+      
+    }
+
+    .tab {
+        width: 100%;
+        text-align: left;
+        a {
+            padding: 0 0 0 32px;
+            color: rgba(0,0,0,0.87) !important;
+        }
+        .active {
+            -moz-transition: border-color .5s ease;
+            -o-transition: border-color .5s ease;
+            -webkit-transition: border-color .5s ease;
+            transition: border-color .5s ease;
+            border-right: 3px solid $light-color;
+            color: rgba(0,0,0,0.87) !important;
+            background-color: rgba(0,0,0,0.05) !important;
+        }
+
+        :hover {
+            border-right: 3px solid $light-color-2;
+            background-color: rgba(0,0,0,0.05) !important;
+        }
+    }
+
+    .indicator {
+        display: none;
+    }
+  
+        .tab-content {
+        display : none
+      }
+  
+        > .tab-content .active{
+        display : block
+      }
+}
+
+.tborderless {
+    border-collapse: inherit !important;
+}
+
+.deleteuserbtn {
+    cursor: pointer;
+}

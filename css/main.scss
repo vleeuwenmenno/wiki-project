@@ -1,0 +1,92 @@
+@import "colors.scss";
+@import "editor.scss";
+
+$multiplier: 0.2;
+
+header, main, footer {
+    padding-left: 300px;
+}
+
+main {
+    overflow: hidden;
+}
+
+h1 { font-size: calc(2em * $multiplier) !important; }
+h2 { font-size: calc(1.5em * $multiplier) !important; }
+h3 { font-size: calc(1.17em * $multiplier) !important; }
+h4 { font-size: calc(1.12em * $multiplier) !important; }
+h5 { font-size: calc(.83em * $multiplier) !important; }
+h6 { font-size: calc(.75em * $multiplier) !important; }
+
+pre code {
+    background-color: #eee;
+    border: 1px solid #999;
+    display: block;
+    padding: 20px;
+}
+
+@media only screen and (max-width : 992px) {
+    header, main, footer {
+        padding-left: 0;
+    }
+}
+
+@media only screen and (min-width : 992px) {
+    .mainNav {
+        padding-left: 300px !important;
+    }
+}
+
+.user-icon {
+    font-size: 64px;
+}
+
+.searchIcon {
+    position: relative;
+    top: -10px;
+    cursor: pointer;
+}
+
+.dropdown-wide {
+    width: 140px;
+}
+
+@media only screen and (min-width : 992px) {
+    .backButton {
+        padding-left: 16px;
+    }
+}
+
+.pageNavButton {
+    cursor: pointer;
+}
+
+.pageNavFilterButton {
+    z-index: 1000;
+    cursor: move;
+}
+.sticky {
+    position: fixed;
+}
+.table-of-contents a.active {
+    border-left-color: $dark-color-1 !important;  
+} 
+.table-of-contents a:hover {
+    border-left-color: $light-color !important;  
+}
+
+.editPage {
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 2;
+}
+
+.disabled {
+    color: $dark-color-2;
+}
+
+.center-loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}

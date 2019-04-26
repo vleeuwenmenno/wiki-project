@@ -1,0 +1,44 @@
+.CodeMirror {
+    height: calc(100% - 160px);
+}
+
+@media (min-width: 990px) {
+    .editor-preview-side {
+        position: fixed;
+        bottom: 0;
+        width: calc(50% - 150px);
+        top: 50px;
+        right: 0;
+        z-index: 9;
+        border: 1px solid #ddd;
+    }
+
+    .editor-toolbar.fullscreen {
+        width: calc(100% - 300px);
+        height: 50px;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        box-sizing: border-box;
+        background: #fff;
+        border: 0;
+        position: fixed;
+        top: 0;
+        left: 300;
+        opacity: 1;
+        z-index: 9;
+    }
+
+    .CodeMirror-fullscreen {
+        background: #fff;
+        position: fixed!important;
+        top: 50px;
+        left: 300px;
+        right: 0;
+        bottom: 0;
+        height: auto;
+        z-index: 9;
+    }
+}

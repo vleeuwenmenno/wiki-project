@@ -1,0 +1,52 @@
+$dark-color: #203152;
+$dark-color-1: #294162;
+$dark-color-2: #395A73;
+$dark-color-3:  #4A6A83;
+
+$light-color: #8BB4A4;
+$light-color-1: #BDD5B4;
+$light-color-2: #CDDEBD;
+
+.dark-color {
+    background-color: $dark-color !important;
+}
+.dark-color-1 {
+    background-color: $dark-color-1 !important;
+}
+.dark-color-2 {
+    background-color: $dark-color-2 !important;
+}
+.dark-color-3 {
+    background-color: $dark-color-3 !important;
+}
+.light-color {
+    background-color: $light-color !important;
+}
+.light-color-1 {
+    background-color: $light-color-1 !important;
+}
+.light-color-2 {
+    background-color: $light-color-2 !important;
+}
+
+.dark-text-color {
+    color: $dark-color !important;
+}
+.dark-text-color-1 {
+    color: $dark-color-1 !important;
+}
+.dark-text-color-2 {
+    color: $dark-color-2 !important;
+}
+.dark-text-color-3 {
+    color: $dark-color-3 !important;
+}
+.light-text-color {
+    color: $light-color !important;
+}
+.light-text-color-1 {
+    color: $light-color-1 !important;
+}
+.light-text-color-2 {
+    color: $light-color-2 !important;
+}

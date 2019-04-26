@@ -1,0 +1,6 @@
+
+# We don't need to save those as we are using SCSS
+css/*.css
+css/*.css.map
+*.css
+*.css.map
